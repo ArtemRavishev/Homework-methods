@@ -7,7 +7,7 @@ public class Main {
         int deliveryDistance = -10;
         int days = calculateDeliveryDays(deliveryDistance);
         if (days==-1) {
-            System.out.println("Доставка не возможна на расстояние " + deliveryDistance + " км. ");
+            System.out.println("Не возможна доставка на расстояние " + deliveryDistance + " км. ");
         }else {
             System.out.println(" Время  доставки " + days + " дней ");
         }
